@@ -2,27 +2,31 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar&display=swap');
+
+
 
 /* Styles for the body */
 
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #4A4A48;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #7300FF;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFFEFE;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #D678FF;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +40,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #B153CB;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +52,27 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.naam {
+	color: white
+
+}
+.fontdikgedrukt {
+	font-family:"Sigmar", serif;
+	color:#454534
+}.square {
+}
+.heart {
+}
+.cloud {
+}
+
+.kleurtjebalkje {
+	background-color: lightblue;
+}
+.sierlijklettertyp {
+	font-family:"Lobster Two";
+color:white
+
 }
